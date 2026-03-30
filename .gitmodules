@@ -1,0 +1,3 @@
+[submodule "chipi-spec"]
+	path = chipi-spec
+	url = git@github.com:ioncodes/chipi-spec.git

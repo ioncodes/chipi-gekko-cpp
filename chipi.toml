@@ -1,0 +1,11 @@
+[[gen]]
+input = "chipi-spec/gamecube/gekko.chipi"
+lang = "cpp"
+output = "generated/gekko.hpp"
+
+[gen.lang_options]
+includes = ["types.hpp"]
+
+[gen.type_map]
+gpr = "Gpr"
+fpr = "Fpr"
