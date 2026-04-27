@@ -1,0 +1,14 @@
+include "chipi-spec/gamecube/gekko.chipi"
+
+target cpp {
+    decoder Gekko {
+        output "generated/gekko.hpp"
+
+        type gpr = Gpr
+        type fpr = Fpr
+
+        includes {
+            "types.hpp"
+        }
+    }
+}
